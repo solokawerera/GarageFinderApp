@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView android:id="@+id/info_image"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1.0"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="My text"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+<!--
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <ImageView android:id="@+id/info_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/garage3"
+                android:scaleType="centerCrop"/>
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_weight="75"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="solos garage"/>
+            <TextView
+                android:id="@+id/location_text"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nyeri Town"/>
+            <TextView
+                android:id="@+id/rating_text"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="4.7"
+                android:drawableRight="@drawable/ic_star_rating"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+-->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8dc8e4</color>
+    <color name="colorPrimaryDark">#8dc8e4</color>
+    <color name="colorAccent">#8dc8e4</color>
+    <color name="black">#000000</color>
+    <color name="green">#1d9136</color>
+    <color name="blue">#1d2391</color>
+    <color name="sky_blue">#8dc8e4</color>
+    <color name="trans">#001d2391</color>
+    <color name="btn_driver">#71134A</color>
+    <color name="btn_customer">#DB18CE</color>
+
+    <color name="grey">#bfbfbf</color>
+    <color name="white">#fff</color>
+
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorpurple">#6434B9</color>
+    <color name="colorblue">#2196F3</color>
+
+    <color name="colordarkpurple">#5C3A81B7</color>
+    <color name="colordarkblue">#7C2196F3</color>
+
+    <color name="colorAccent2">#ff7979</color>
+    <color name="lightGreyText">#b9bec5</color>
+    <color name="colorAccent3">#ff6a6a</color>
+    <color name="lightgrey">#f2f2f2</color>
+
+
+    <color name="greytrans">#78bfbfbf</color>
+    <color name="blacktrans">#8d000000</color>
+
+    <color name="grey2">#b1adad</color>
+    <color name="blackG">#5e5959</color>
+
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <!--Vehicle Model-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_car"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/grey_border_bottom">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Model"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <RelativeLayout
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:background="@drawable/circlebg2accentgrey">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_arrow_right_grey_24dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--Other stuff-->
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_list_bulleted_black"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/grey_border_bottom">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="qwerty"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="asdfg"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="5dp"/>
+                    <RelativeLayout
+                        android:id="@+id/relLayout1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:background="@drawable/circlebg2accentgrey">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_arrow_right_grey_24dp"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--Stuff 2-->
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_credit_card_black"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/grey_border_bottom">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="zxcvbn"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+
+
+                <RelativeLayout
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:background="@drawable/circlebg2accentgrey">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_arrow_right_grey_24dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--stuff 4-->
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_credit_card_black"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/grey_border_bottom">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_alignParentLeft="true"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_alignParentRight="true">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="English"
+                        android:textColor="@color/black"
+                        android:layout_marginRight="5dp"/>
+                    <RelativeLayout
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:background="@drawable/circlebg2accentgrey">
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ic_arrow_right_grey_24dp"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</merge>

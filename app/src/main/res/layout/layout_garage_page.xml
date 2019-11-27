@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!--Topbar -->
+        <RelativeLayout
+            android:id="@+id/relLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+
+            <RelativeLayout
+                android:id="@+id/relLayout_back_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/iv_arrow_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_arrow_left" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/iv_arrow_back"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Back to"
+                        android:textColor="@color/grey2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GARAGES"
+                        android:textColor="@color/blackG"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <!--Top garage detail -->
+
+        <RelativeLayout
+            android:id="@+id/relLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayout1"
+            android:layout_marginTop="12dp">
+
+            <LinearLayout
+                android:id="@+id/linLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40">
+
+                    <ImageView
+                        android:id="@+id/garage_image"
+                        android:layout_width="150dp"
+                        android:layout_height="140dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/garage3" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="60"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/garage_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_fiber"
+                        android:padding="5dp"
+                        android:text="Kimiris Garage"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/garage_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_location_on_black_24dp"
+                        android:padding="5dp"
+                        android:text="Nyaribo"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/ic_star"
+                        android:padding="5dp"
+                        android:text="4.0/5.0"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <!--layout call chat and book-->
+
+        <RelativeLayout
+            android:id="@+id/relLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayout2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="57dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+
+                <RelativeLayout
+                    android:id="@+id/relLayoutCall"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Call"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relchat"
+                    android:layout_width="275dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chat"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <!--layout about garage-->
+        <LinearLayout
+            android:id="@+id/relLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayout3"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ABOUT GARAGE"
+                android:textColor="@color/blackG"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/et_garage_more_details"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+        <!--layout services and rates-->
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/relLayoutmm"
+            android:layout_below="@+id/relLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/services"
+            android:textColor="@color/blackG"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relLayoutmm"
+            android:layout_marginTop="10dp"
+            android:id="@+id/services_recycler"/>
+
+
+
+        <!--layout Reviews-->
+        <LinearLayout
+            android:id="@+id/relLayout6"
+            android:layout_below="@+id/services_recycler"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+        <!--layout contact-->
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/relLayout7"
+            android:layout_below="@+id/relLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACTS"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/blackG"/>
+
+            <RelativeLayout
+                android:id="@+id/relLayoutPhoneNum"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_phone"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_phone_black"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvphonenum"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/iv_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+254 714344556"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccent"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/iv_email"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/iv_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorAccent"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

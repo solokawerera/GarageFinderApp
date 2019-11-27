@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GarageDetailActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/garage_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/garage3"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relLayout1">
+
+        <TextView
+            android:id="@+id/garage_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/garage_location"
+            android:layout_below="@+id/garage_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/layout_bottom_navigaton_view"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

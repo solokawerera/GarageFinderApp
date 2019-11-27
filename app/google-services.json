@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "637164029143",
+    "firebase_url": "https://garagefinderapp.firebaseio.com",
+    "project_id": "garagefinderapp",
+    "storage_bucket": "garagefinderapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637164029143:android:215eb357ef27ba7d",
+        "android_client_info": {
+          "package_name": "com.example.garagefinderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcSPLnkBgfSzWlZIZMNt4OKp-JVblcr2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637164029143:android:cfc95bbbe3b9dbe0529c92",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637164029143-8o4qkmktuebs4cv9hunoacsejvmlpk0q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "9369a4d9ebf9d73cde83b8e838eeb8b5896a3067"
+          }
+        },
+        {
+          "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcSPLnkBgfSzWlZIZMNt4OKp-JVblcr2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637164029143:android:ab8718768f8cbaa4529c92",
+        "android_client_info": {
+          "package_name": "com.example.myrescueapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637164029143-4c3iqq2dktvjkf65j00l2m1ahp5ij03g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myrescueapp",
+            "certificate_hash": "9369a4d9ebf9d73cde83b8e838eeb8b5896a3067"
+          }
+        },
+        {
+          "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcSPLnkBgfSzWlZIZMNt4OKp-JVblcr2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637164029143-0e3asn34q590vbg3fvjvdnrhgjo60kvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

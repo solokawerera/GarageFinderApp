@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">MyRescueApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_fragment">Map Fragment</string>
+    <string name="map_tab">map</string>
+    <string name="top_tab">cards</string>
+    <string name="list_tab">list</string>
+    <string name="api_key">AIzaSyBZEcJpRhi5JgfIbms-BFIkj7LQYsUyHjo</string>
+
+
+    <string name="text_custimer_login">motorist Login</string>
+    <string name="text_driver_login">Garage owner Login</string>
+    <string name="i_am_motorist">I am a Motorist</string>
+    <string name="i_am_a_garage_owner">I am a Garage owner</string>
+    <string name="title_activity_customers_map">Map</string>
+    <string name="title_activity_driver_map">Map</string>
+
+    <string name="book_tab">Book</string>
+    <string name="description_tab">Description</string>
+    <string name="comment_tab">Comment</string>
+    <string name="create_order_title">Create Order</string>
+
+    <string name="lolem">Our Real Special marinara sauce with fresh tomatoes
+        baked on our signature thin crust,
+        baked to a perfect crisp. We create food we’re proud to serve and deliver it fast, with a smile.\n
+
+   \n Classic marinara sauce, authentic old-world pepperoni, all-natural Italian sausage,
+        slow-roasted ham, hardwood smoked bacon, seasoned pork and beef. Best an our Hand Tossed crust.
+        With more than 50 years of experience under our belts,
+        we understand how to best serve our customers through
+        tried and true service principles. Instead of following trends,
+        we set them. Our Real Special marinara sauce with fresh tomatoes
+        baked on our signature thin crust,
+        baked to a perfect crisp. We create food we’re proud to serve and deliver it fast, with a smile.\n
+
+   \n Classic marinara sauce, authentic old-world pepperoni, all-natural Italian sausage,
+        slow-roasted ham, hardwood smoked bacon, seasoned pork and beef. Best an our Hand Tossed crust.
+        With more than 50 years of experience under our belts,
+        we understand how to best serve our customers through
+        tried and true service principles. Instead of following trends,
+        we set them. Our Real Special marinara sauce with fresh tomatoes
+        baked on our signature thin crust,
+        baked to a perfect crisp. We create food we’re proud to serve and deliver it fast, with a smile.\n
+
+   \n Classic marinara sauce, authentic old-world pepperoni, all-natural Italian sausage,
+        slow-roasted ham, hardwood smoked bacon, seasoned pork and beef. Best an our Hand Tossed crust.
+        With more than 50 years of experience under our belts,
+        we understand how to best serve our customers through
+        tried and true service principles. Instead of following trends,
+        we set them. </string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="about_garage">Welcome to solos garage we strive
+        to offer the best of services in automobiles </string>
+
+    <string name="about_garage2">at unbeatable charges</string>
+    <string name="services">SERVICES $ RATES</string>
+    <string name="title_activity_maps2">Map</string>
+
+
+</resources>
